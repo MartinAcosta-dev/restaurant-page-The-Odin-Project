@@ -1,5 +1,9 @@
-function saludar(){
-    alert("hola");
-}
+import style from './style.css'
+import { loadHeader } from './loadHeader'
+import { loadHome } from './loadHome';
 
-saludar();
+//loadHeader();
+//loadHome();
+//loadMenu();
+//loadAboutUs();
+//loadContact();

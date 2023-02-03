@@ -1,0 +1,138 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Unbounded:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(154, 81, 81);;
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+header{
+    height: 100px;
+    background-color: rgb(129, 8, 8);
+    padding-left: 50px;
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ul{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    color: white;
+    margin-left: 800px;
+}
+
+ul li{
+    display: inline;
+    margin-left: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+ul li:hover{
+    cursor: pointer;
+    font-size: 50px;
+    text-shadow: 2px 2px 9px black; ;
+}
+
+
+#divHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+}
+
+.cardHome:first-child{
+    text-align: center;
+    padding: 120px;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(209, 209, 209);
+
+    text-shadow: 3px 3px 6px rgb(0, 0, 0);
+    
+
+    width: 700px;
+    height: 500px;   
+}
+
+img:first{
+    border-radius: 100%;
+    width: 600px;
+    
+}
+
+#divMenu{
+    padding: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: -24px;
+}
+
+.cajaComida{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    background-color: rgb(219, 120, 120);
+}
+
+.imagenComida{
+    width: 100%;
+    height: 300px;
+}
+
+.tituloComida{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    margin-bottom: 30px !important;
+
+    color: blanchedalmond;
+    text-shadow: 1px 2px 3px black;
+}
+
+.descripcionComida{
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    font-size: 18px;
+    padding: 2px;
+
+    color: blanchedalmond;
+    text-shadow: 1px 1px 2px black;
+}
+
+#divAboutUs{
+    text-align: center;
+    padding: 0px 80px 0px 80px;
+}
+
+#divAboutUs h2{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 50px;
+}
+
+#divAboutUs div{
+    color: white;
+    text-shadow: 2px 2px 7px black;
+    font-size: 25px;
+}
